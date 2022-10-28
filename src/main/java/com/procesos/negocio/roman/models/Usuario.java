@@ -32,4 +32,10 @@ public class Usuario {
     private Date fechaNacimiento;
     @Column(length = 10, nullable = true)
     private String telefono;
+    @Column(unique = true,length = 100,nullable = false)
+    @NotBlank(message = "El correo no puede ser en blanco")
+    private String correo;
+    @Column(nullable = false,length = 64)
+    @NotBlank(message = "la contraseña no puede estar en blanco")
+    private String password;
 }
