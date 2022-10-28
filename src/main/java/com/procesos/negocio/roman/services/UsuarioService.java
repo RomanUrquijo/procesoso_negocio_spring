@@ -1,6 +1,6 @@
-package com.procesos.negocio.karen.services;
+package com.procesos.negocio.roman.services;
 
-import com.procesos.negocio.karen.models.Usuario;
+import com.procesos.negocio.roman.models.Usuario;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

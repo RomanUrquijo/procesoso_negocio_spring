@@ -1,7 +1,7 @@
-package com.procesos.negocio.karen.services;
+package com.procesos.negocio.roman.services;
 
-import com.procesos.negocio.karen.models.Usuario;
-import com.procesos.negocio.karen.repository.UsuarioRepository;
+import com.procesos.negocio.roman.models.Usuario;
+import com.procesos.negocio.roman.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

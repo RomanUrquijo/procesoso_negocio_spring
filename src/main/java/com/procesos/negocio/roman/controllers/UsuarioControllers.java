@@ -1,8 +1,8 @@
-package com.procesos.negocio.karen.controllers;
+package com.procesos.negocio.roman.controllers;
 
 import aj.org.objectweb.asm.Opcodes;
-import com.procesos.negocio.karen.models.Usuario;
-import com.procesos.negocio.karen.services.UsuarioService;
+import com.procesos.negocio.roman.models.Usuario;
+import com.procesos.negocio.roman.services.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
